@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mega_waterBased_Blank
+  m_Shader: {fileID: 4800000, guid: 93e95b6bc998333408a9f5ad0cc2491d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseAlbedoCutout:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMetalGlossAOHeightA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1AlbedoCutout:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1MetalGlossAOHeightA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2AlbedoCutout:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2MetalGlossAOEmisHeightA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2MetalGlossAOHeightA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBNoisemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRippleNormalMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRippleNormalMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BaseHeightBoost: 1
+    - _BaseHeightOffset: 0
+    - _BaseLayerMix: 1
+    - _BaseTiling: 0.5
+    - _Cutoff: 0.5
+    - _EdgeLength: 2
+    - _Invert_AO: 0
+    - _Masked1HeightBoost: 1
+    - _Masked1HeightOffset: 0
+    - _Masked1Tiling: 0.5
+    - _Masked2HeightBoost: 1
+    - _Masked2HeightOffset: 0
+    - _Masked2Tiling: 0.5
+    - _Master_GlossAdd: 0
+    - _Master_MetalnessAdd: 0
+    - _NoiseLerper: 0.5
+    - _NoiseMod1: 0.1
+    - _NoiseMod2: 0.1
+    - _NoiseMod3: 0.1
+    - _NoiseTilingMaster: 1
+    - _RGBMask_Tiling: 0.5
+    - _RefractionAmount: 0.2
+    - _TessellationMultiplier: 0.1
+    - _Treat_AO_as_Emissive: 0
+    - _UsesSmoothness: 0
+    - _WaterHeightLevel: 0.2
+    - _WaterTiling: 2
+    - _WaterTurbulence: 0.3
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Masked1ColorLayerAmount: {r: 1, g: 1, b: 1, a: 1}
+    - _Masked2ColorLayerAmount: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColorMuddyness: {r: 0.1706855, g: 0.236529, b: 0.3014706, a: 1}
+    - _WaterMetallicGloss: {r: 0.2, g: 0.8, b: 0, a: 0}

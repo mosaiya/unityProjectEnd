@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mega_waterBased_Demo2
+  m_Shader: {fileID: 4800000, guid: 93e95b6bc998333408a9f5ad0cc2491d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseAlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: 6828219280b59df46bf11d3e2dd50b0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMetalGlossAOHeightA:
+        m_Texture: {fileID: 2800000, guid: 846e95ff3dcc27047a9b18260536f5c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseNormalMap:
+        m_Texture: {fileID: 2800000, guid: 6bdb2c65862d10640bfb1f4caa02aae1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1AlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: 5b6960acfb8fb3c4f945bd031d053df8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1MetalGlossAOHeightA:
+        m_Texture: {fileID: 2800000, guid: 966c9a7156566d741a7815a102b628ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked1NormalMap:
+        m_Texture: {fileID: 2800000, guid: 2cbd60d9142089e4795a14da5e8bf96b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2AlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: cba5fd5693aae2242ae129832c5752c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2MetalGlossAOEmisHeightA:
+        m_Texture: {fileID: 2800000, guid: d98746ae240007d418d9c2c51a5f84a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masked2NormalMap:
+        m_Texture: {fileID: 2800000, guid: 63be702cb7c9d624885f492274412ba5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBNoisemap:
+        m_Texture: {fileID: 2800000, guid: 23417e5079378c348a9062abcb2ca5e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRippleNormalMap1:
+        m_Texture: {fileID: 2800000, guid: a9c449e102685d34fa04ef3f86190bc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRippleNormalMap2:
+        m_Texture: {fileID: 2800000, guid: a9c449e102685d34fa04ef3f86190bc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BaseHeightBoost: 1.3
+    - _BaseHeightOffset: 2.92
+    - _BaseLayerMix: 1
+    - _BaseTiling: 5
+    - _Cutoff: 0.5
+    - _EdgeLength: 2
+    - _Invert_AO: 0
+    - _Masked1HeightBoost: 2.38
+    - _Masked1HeightOffset: 4.15
+    - _Masked1Tiling: 5.7
+    - _Masked2HeightBoost: 2.44
+    - _Masked2HeightOffset: 3.14
+    - _Masked2Tiling: 2.1
+    - _Master_GlossAdd: 0
+    - _Master_MetalnessAdd: 0.48
+    - _NoiseLerper: 1.81
+    - _NoiseMod1: 0.8
+    - _NoiseMod2: 1.73
+    - _NoiseMod3: 0.59
+    - _NoiseTilingMaster: 0.26
+    - _RGBMask_Tiling: 0.5
+    - _RefractionAmount: 0.03
+    - _TessellationMultiplier: 0.56
+    - _TintUnderWater: 0
+    - _Treat_AO_as_Emissive: 0
+    - _UsesSmoothness: 0
+    - _WaterHeightLevel: 4.85
+    - _WaterTiling: 1.33
+    - _WaterTurbulence: 0.04
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 0.784}
+    - _Masked1ColorLayerAmount: {r: 1, g: 1, b: 1, a: 1}
+    - _Masked2ColorLayerAmount: {r: 0.6764706, g: 0.5852225, b: 0.5023789, a: 0.684}
+    - _WaterColorMuddyness: {r: 0.85294116, g: 0.7960207, b: 0.7651384, a: 0.409}
+    - _WaterMetallicGloss: {r: -0.74, g: 3.01, b: 0, a: 0}

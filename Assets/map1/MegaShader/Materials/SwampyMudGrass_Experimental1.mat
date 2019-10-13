@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SwampyMudGrass_Experimental1
+  m_Shader: {fileID: 4800000, guid: 0d09cd50069996c48beebf4bc0e74a36, type: 3}
+  m_ShaderKeywords: _RESPECTG_ON _RESPECTR_ON _ROUGHNESSMODE_ON _SMOOTHNESSMODE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BAlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: 44efd0011d6a9bc4fb0b3a82753dac4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BMetalRoughAOHeightA:
+        m_Texture: {fileID: 2800000, guid: a564ecd9a7920bc41ba74914f7919a7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BNormal:
+        m_Texture: {fileID: 2800000, guid: 13608b891dcde2a49bd1ee162e9b1286, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseAlbedo:
+        m_Texture: {fileID: 2800000, guid: d71928c6b0e37a9488a2834ad3612ff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMetalRRoughGAORHeightA:
+        m_Texture: {fileID: 2800000, guid: 89a186d96379a304d8f1e4b738baf510, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 11dbe9a0c2374614f9676204ef80043b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GAlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: cba5fd5693aae2242ae129832c5752c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GMetalRoughAOHeightA:
+        m_Texture: {fileID: 2800000, guid: d98746ae240007d418d9c2c51a5f84a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GNormal:
+        m_Texture: {fileID: 2800000, guid: 63be702cb7c9d624885f492274412ba5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RAlbedoCutout:
+        m_Texture: {fileID: 2800000, guid: 2f0fb76270e79e0478ddaf391f38b591, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBAMask:
+        m_Texture: {fileID: 2800000, guid: 23417e5079378c348a9062abcb2ca5e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBMask:
+        m_Texture: {fileID: 2800000, guid: 8c97f3f7675f04dbe8f7e7be74e3d18f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMetalRoughAOHeightA:
+        m_Texture: {fileID: 2800000, guid: ba214003635ec2d4ba2b9418bcdd7b31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RNormal:
+        m_Texture: {fileID: 2800000, guid: 303564e14574171408a5c92dd5e7f7f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BAmount: 0.25
+    - _BBrightness: 0.66
+    - _BContrast: 0.74
+    - _BHeightAmount: 2.18
+    - _BHeightOffset: 0.5
+    - _BMaskTiling: 0.9
+    - _BTexTiling: 4.45
+    - _BTiling: 0
+    - _BaseHeightAmount: 2.25
+    - _BaseHeightOffset: -4
+    - _BaseLayerMix: 0.535
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DebugHeight: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GAmount: 0.57
+    - _GBrightness: 1.9
+    - _GContrast: 8
+    - _GHeightAmount: 2.67
+    - _GHeightOffset: -1.95
+    - _GMaskTiling: 1.72
+    - _GTexTiling: 10
+    - _GTiling: 0
+    - _GlobalMetallicMultiplier: 0.92
+    - _GlobalSmoothnessMultiplier: 0.46
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightAmount: 2.3
+    - _HeightOffset: -0.5
+    - _InvertAO: 0
+    - _KeepPrevHeight: 0
+    - _LayerTilingMaster: 3.94
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RAmount: 0.02
+    - _RBrightness: 0.92
+    - _RContrast: 2.4
+    - _RHeightAmount: 5.55
+    - _RHeightOffset: 0.5
+    - _RMaskTiling: 3.15
+    - _RTexTiling: 6.8
+    - _RTiling: 3.3
+    - _RespectBase: 0
+    - _RespectG: 1
+    - _RespectR: 1
+    - _RetainBaseHeight: 0
+    - _RetainBaseheight: 0
+    - _RoughnessMode: 1
+    - _SmoothnessMode: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessMax: 6.97
+    - _TessMin: -1.2
+    - _TessPhongStrength: 0.433
+    - _TessValue: 1.7
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _m: 0
+    m_Colors:
+    - _BColorMix: {r: 0, g: 0, b: 0, a: 0.441}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.697}
+    - _BaseColorInclusion: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GColorMix: {r: 1, g: 1, b: 1, a: 1}
+    - _MasterHeightMinMax: {r: -2, g: 6, b: 0, a: 0}
+    - _RColorMix: {r: 1, g: 0.9044118, b: 0.9044118, a: 0.353}

@@ -44,6 +44,7 @@ public class Mis2 : MonoBehaviour
     public GameObject item;
     public GameObject item2; ///ฟิวที่จะวางบนโต๊ะ
     string check ;
+    public GameObject checkBg ;
     void Start()
     {
         ExNumber = Random.Range(1, 255);
@@ -192,6 +193,7 @@ public class Mis2 : MonoBehaviour
     }
     void chcekNumber()
     {
+      
         if (song.Equals(check))
         {
             
@@ -202,7 +204,10 @@ public class Mis2 : MonoBehaviour
         }
         else
         {
+             Debug.Log("Downbuttoncheck");
+            checkBg.SetActive(true);
             Textchcek.text = "fail";
+            StartCoroutine(Deley());
         }
     }
     void Update()
@@ -213,6 +218,11 @@ public class Mis2 : MonoBehaviour
     private void OnMouseDown()
     {
         
+    }
+    IEnumerator Deley()
+    {
+        yield return new WaitForSeconds(5);
+        checkBg.SetActive(false);
     }
 }
 
